@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "39727920755",
+    "firebase_url": "https://heloisaimoveisapp.firebaseio.com",
+    "project_id": "heloisaimoveisapp",
+    "storage_bucket": "heloisaimoveisapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39727920755:android:a6d93014be8046b5",
+        "android_client_info": {
+          "package_name": "com.example.heloisaimoveis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39727920755-80p637gsenqcobto4ju3mv47noloufuh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.heloisaimoveis",
+            "certificate_hash": "7a8e6da89f425c206d0891552307463147127600"
+          }
+        },
+        {
+          "client_id": "39727920755-6crfaeeqehelpkm235jkof6valuuu5fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIsePZW6yk7ea4D_WgDM3_9MrR_6cRilk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39727920755-6crfaeeqehelpkm235jkof6valuuu5fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

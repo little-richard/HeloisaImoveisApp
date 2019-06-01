@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Heloisa Imóveis</string>
+    <string name="button_imoveis">Imóveis</string>
+    <string name="button_fazendas">Fazendas</string>
+    <string name="button_salvar">Salvar</string>
+    <string name="title_activity_fazendas">Fazendas</string>
+    <string name="title_activity_imoveis">Imóveis</string>
+    <string name="title_activity_form_imoveis">Incluir Imóveis</string>
+</resources>
