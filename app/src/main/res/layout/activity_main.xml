@@ -18,11 +18,15 @@
             android:layout_height="300px"
             android:layout_width="match_parent"
             android:layout_margin="10dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
             android:text="@string/button_imoveis"/>
         <Button
             android:id="@+id/button_fazendas"
             android:layout_height="300px"
             android:layout_width="match_parent"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
             android:layout_margin="10dp"
             android:text="@string/button_fazendas"/>
     </LinearLayout>

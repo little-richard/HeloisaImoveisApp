@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.FormImoveisActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -15,20 +19,37 @@
             xmlns:tools="http://schemas.android.com/tools"
             tools:context=".activities.FormImoveisActivity">
 
+            <com.synnapps.carouselview.CarouselView
+                android:id="@+id/carouselView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:fillColor="#FFFFFFFF"
+                app:pageColor="#00000000"
+                app:radius="6dp"
+                app:slideInterval="3000"
+                app:strokeColor="#FF777777"
+                app:strokeWidth="1dp"/>
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:text="Upload"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
             <EditText
                 android:id="@+id/editText_descricao"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Descrição"
-                android:ems="10"
+                android:layout_margin="15dp"
                 android:inputType="textLongMessage"/>
 
             <EditText
                 android:id="@+id/editText_logradouro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="15dp"
                 android:hint="Logradouro"
-                android:ems="10"
                 android:inputType="textLongMessage"/>
 
             <EditText
@@ -36,7 +57,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Quantidade de quartos"
-                android:ems="10"
+                android:layout_margin="15dp"
                 android:inputType="number"/>
 
             <EditText
@@ -44,46 +65,50 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Quantidade de banheiros"
-                android:ems="10"
+                android:layout_margin="15dp"
                 android:inputType="number"/>
 
             <EditText
                 android:id="@+id/editText_area"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="15dp"
                 android:hint="Tamanho da área"
-                android:ems="10"
                 android:inputType="numberDecimal" />
 
             <EditText
                 android:id="@+id/editText_garagem"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="15dp"
                 android:hint="Quantidade de garagens"
-                android:ems="10"
                 android:inputType="number"/>
 
             <EditText
                 android:id="@+id/editText_valor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="15dp"
                 android:hint="Valor R$"
-                android:ems="10"
                 android:inputType="numberDecimal"/>
 
             <EditText
                 android:id="@+id/editText_iptu"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="15dp"
                 android:hint="Valor IPTU"
-                android:ems="10"
                 android:inputType="numberDecimal"/>
             <Button
                 android:id="@+id/button_salvar"
                 android:layout_height="100px"
                 android:layout_width="match_parent"
                 android:layout_margin="10dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:textColor="@color/colorWhite"
                 android:text="@string/button_salvar"/>
         </LinearLayout>
+    </ScrollView>
 
-</android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>
