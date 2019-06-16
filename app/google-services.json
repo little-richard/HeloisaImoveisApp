@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "1044027965903",
+    "firebase_url": "https://imoveis-a66a3.firebaseio.com",
+    "project_id": "imoveis-a66a3",
+    "storage_bucket": "imoveis-a66a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044027965903:android:a6d93014be8046b5",
+        "android_client_info": {
+          "package_name": "com.example.heloisaimoveis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044027965903-665iiklbq8hucoeju56lim546tq4b5v4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.heloisaimoveis",
+            "certificate_hash": "7a8e6da89f425c206d0891552307463147127600"
+          }
+        },
+        {
+          "client_id": "1044027965903-dh2sasr24067b6fpee16eosp2l251bu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM499-OQXRfdq21nDuaeJmfZ9AC2AkMug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044027965903-dh2sasr24067b6fpee16eosp2l251bu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044027965903:android:9a98655af01891a7",
+        "android_client_info": {
+          "package_name": "com.youdog.imoveis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044027965903-dh2sasr24067b6fpee16eosp2l251bu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM499-OQXRfdq21nDuaeJmfZ9AC2AkMug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044027965903-dh2sasr24067b6fpee16eosp2l251bu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
